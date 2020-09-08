@@ -1,6 +1,7 @@
 class Dog
   attr_reader :name
   def initialize(name)
-    @name = fido
+    puts "name"
+    @name = name
   end
 end
