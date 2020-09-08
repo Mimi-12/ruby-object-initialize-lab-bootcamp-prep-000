@@ -1,5 +1,6 @@
 class Person
-  def name = fido
+  def initialize (fido)
+    attr_reader :name
     @name = fido
   end
   def fido
