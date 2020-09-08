@@ -8,5 +8,4 @@ class Person
     puts  = "fido"
   end
 end
-fido = Dog.new
-fido.name = "fido"
+
