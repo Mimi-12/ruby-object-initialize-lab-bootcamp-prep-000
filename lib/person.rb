@@ -1,10 +1,8 @@
 class Person
-  def initialize (fido)
+  def initialize(name)
     attr_reader :name
-    @name = fido
-  end
-  def fido
-    @name
+    puts "fido"
+    @name = name
   end
 end
 fido = Dog.new
