@@ -8,4 +8,3 @@ class Person
     puts  = "fido"
   end
 end
-
