@@ -1,7 +1,7 @@
 class Person
     attr_reader :name
 
-  def initialize
+  def initialize(name)
      @name
    end
    def name
